@@ -4,16 +4,13 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Betfair.ESAClient.Cache
 {
-    /// <summary>
-    /// Thread safe cache of markets
-    /// </summary>
-    public class MarketCache
+	/// <summary>
+	/// Thread safe cache of markets
+	/// </summary>
+	public class MarketCache
     {
         private readonly ConcurrentDictionary<string, Market> _markets = new ConcurrentDictionary<string, Market>();
         

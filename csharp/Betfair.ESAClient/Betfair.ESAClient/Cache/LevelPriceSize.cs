@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Betfair.ESAClient.Cache
 {
-    /// <summary>
-    /// Immutable triple of level, price size.
-    /// </summary>
-    public class LevelPriceSize
+	/// <summary>
+	/// Immutable triple of level, price size.
+	/// </summary>
+	public class LevelPriceSize
     {
         private readonly int _level;
         private readonly double _price;

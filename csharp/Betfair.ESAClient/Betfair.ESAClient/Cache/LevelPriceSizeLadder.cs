@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Betfair.ESAClient.Cache
 {
-    /// <summary>
-    /// A level price size ladder with copy on write snapshot
-    /// </summary>
-    public class LevelPriceSizeLadder
+	/// <summary>
+	/// A level price size ladder with copy on write snapshot
+	/// </summary>
+	public class LevelPriceSizeLadder
     {
         /// <summary>
         /// Dictionary of level to LevelPriceSize

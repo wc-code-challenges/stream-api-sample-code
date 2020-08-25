@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Betfair.ESAClient.Cache
 {
-    /// <summary>
-    /// Atomic snap of the prices associated with a runner.
-    /// </summary>
-    public class MarketRunnerPrices
+	/// <summary>
+	/// Atomic snap of the prices associated with a runner.
+	/// </summary>
+	public class MarketRunnerPrices
     {
         public static readonly MarketRunnerPrices EMPTY = new MarketRunnerPrices()
         {

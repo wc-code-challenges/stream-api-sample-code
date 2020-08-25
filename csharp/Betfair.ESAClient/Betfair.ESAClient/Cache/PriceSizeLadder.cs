@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Betfair.ESAClient.Cache
 {
-    /// <summary>
-    /// A price size ladder with copy on write snapshot
-    /// </summary>
-    public class PriceSizeLadder
+	/// <summary>
+	/// A price size ladder with copy on write snapshot
+	/// </summary>
+	public class PriceSizeLadder
     {
         public static readonly IComparer<double> BACK_ORDER = new ReverseComparer<double>(Comparer<double>.Default);
         public static readonly IComparer<double> LAY_ORDER = Comparer<double>.Default;

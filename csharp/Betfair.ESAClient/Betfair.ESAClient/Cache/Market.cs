@@ -1,18 +1,15 @@
 ﻿using Betfair.ESASwagger.Model;
 using System;
-using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Betfair.ESAClient.Cache
 {
-    /// <summary>
-    /// Thread safe, reference invariant reference to a market.
-    /// Repeatedly calling <see cref="Snap"/> will return atomic snapshots of the market.
-    /// </summary>
-    public class Market
+	/// <summary>
+	/// Thread safe, reference invariant reference to a market.
+	/// Repeatedly calling <see cref="Snap"/> will return atomic snapshots of the market.
+	/// </summary>
+	public class Market
     {
         private readonly MarketCache _marketCache;
         private readonly string _marketId;

@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Betfair.ESASwagger.Model;
 
 namespace Betfair.ESAClient.Cache
 {
-    /// <summary>
-    /// Cached state of the runner
-    /// </summary>
-    public class OrderMarketRunner
+	/// <summary>
+	/// Cached state of the runner
+	/// </summary>
+	public class OrderMarketRunner
     {
         private readonly OrderMarket _market;
         private readonly RunnerId _runnerId;

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Betfair.ESAClient.Cache
 {
-    public class ReverseComparer<T> : IComparer<T>
+	public class ReverseComparer<T> : IComparer<T>
     {
         private readonly IComparer<T> _comparer;
 
